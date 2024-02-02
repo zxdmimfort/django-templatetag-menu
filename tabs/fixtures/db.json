@@ -1,0 +1,298 @@
+[
+{
+  "model": "tabs.menu",
+  "pk": 1,
+  "fields": {
+    "name": "Главное меню",
+    "url": "main_menu"
+  }
+},
+{
+  "model": "tabs.menu",
+  "pk": 2,
+  "fields": {
+    "name": "Продукты",
+    "url": "groceries"
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 1,
+  "fields": {
+    "name": "vegetables, fruits, herbs",
+    "url": "vegetables_fruits_herbs",
+    "parent": 12,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 2,
+  "fields": {
+    "name": "meat, poultry and fish",
+    "url": "meat_poultry_fish",
+    "parent": 12,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 3,
+  "fields": {
+    "name": "farming & craft",
+    "url": "farming_craft",
+    "parent": 12,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 4,
+  "fields": {
+    "name": "grocery",
+    "url": "grocery",
+    "parent": 12,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 5,
+  "fields": {
+    "name": "vegetables and herbs",
+    "url": "vegetables_herbs",
+    "parent": 1,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 6,
+  "fields": {
+    "name": "fruits & berries",
+    "url": "fruits_berries",
+    "parent": 1,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 7,
+  "fields": {
+    "name": "mushrooms and pickles",
+    "url": "mushrooms_pickles",
+    "parent": 1,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 8,
+  "fields": {
+    "name": "bird",
+    "url": "bird",
+    "parent": 2,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 9,
+  "fields": {
+    "name": "meat, steaks",
+    "url": "meat_steaks",
+    "parent": 2,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 10,
+  "fields": {
+    "name": "minced meat and semi-finished products",
+    "url": "minced_meat_semi_finished_products",
+    "parent": 2,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 11,
+  "fields": {
+    "name": "farm products",
+    "url": "farm_products",
+    "parent": 2,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 12,
+  "fields": {
+    "name": "groceries",
+    "url": "groceries",
+    "parent": 13,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 13,
+  "fields": {
+    "name": "fresh",
+    "url": "fresh",
+    "parent": null,
+    "menu": 2
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 14,
+  "fields": {
+    "name": "Electronics",
+    "url": "electronics",
+    "parent": null,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 15,
+  "fields": {
+    "name": "phones & smarwatches",
+    "url": "phones",
+    "parent": 14,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 16,
+  "fields": {
+    "name": "Laptops, tablets and e-readers",
+    "url": "laptops_tablets",
+    "parent": 14,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 17,
+  "fields": {
+    "name": "smartphones",
+    "url": "smartphones",
+    "parent": 15,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 18,
+  "fields": {
+    "name": "Accessories for smartphones and phones",
+    "url": "accessories_phones",
+    "parent": 15,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 19,
+  "fields": {
+    "name": "Smart Watches",
+    "url": "smartwatches",
+    "parent": 15,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 20,
+  "fields": {
+    "name": "Fitness Bracelets",
+    "url": "fitness_bracelets",
+    "parent": 15,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 21,
+  "fields": {
+    "name": "Laptops",
+    "url": "laptops",
+    "parent": 16,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 22,
+  "fields": {
+    "name": "Gaming Laptops",
+    "url": "gaming_laptops",
+    "parent": 16,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 23,
+  "fields": {
+    "name": "Tablets",
+    "url": "tablets",
+    "parent": 16,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 24,
+  "fields": {
+    "name": "Samsung",
+    "url": "samsung",
+    "parent": 17,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 25,
+  "fields": {
+    "name": "Apple",
+    "url": "apple",
+    "parent": 17,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 26,
+  "fields": {
+    "name": "Xiaomi",
+    "url": "xiaomi",
+    "parent": 17,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 27,
+  "fields": {
+    "name": "ASUS",
+    "url": "asus",
+    "parent": 21,
+    "menu": 1
+  }
+},
+{
+  "model": "tabs.menuitem",
+  "pk": 28,
+  "fields": {
+    "name": "Acer",
+    "url": "acer",
+    "parent": 21,
+    "menu": 1
+  }
+}
+]

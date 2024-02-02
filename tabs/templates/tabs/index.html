@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя страница</title>
+    <style>
+        header { width: 100%; display: flex; flex-direction: row; justify-content: space-around; }
+        .menu { flex: 1; align-items: center; display: flex; flex-flow: column nowrap; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+        .menu hr { align-self: auto; width: 95%; margin: 0px; }
+        .menu div { display: flex; flex-flow: row wrap; justify-content: center; }
+        .menu div li { float: left; padding: 14px 0px; }
+        .menu div li a { color: white; text-align: center; padding: 14px; text-decoration: none; }
+        .menu div li a:hover { background-color: #111; }
+    </style>
+</head>
+<body>
+    <header>
+        {% load menu_tags %}
+        {% draw_menu 'main_menu' menu_url %}
+        {% draw_menu 'groceries' menu_url %}
+    </header>
+    <main>
+        <!-- Содержимое страницы -->
+    </main>
+</body>
+</html>
